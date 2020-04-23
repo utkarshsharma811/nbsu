@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>New Patient Registration</title>
+
+<link rel="icon" type="image/png" href="C:/Utkarsh/Webdev/app/static/img/eh.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="C:/Utkarsh/Webdev/app/static/css/stylesheet.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145627514-1"></script>
+<style >
+  #dev{
+      font-family: sans-serif;
+      padding-top: 0;
+     
+      margin-top: 10px;
+          }
+
+    span
+{
+      color: red;
+      font-weight: bolder;
+}
+div
+{
+      list-style: none;
+      margin-bottom:2%;
+      
+}
+label
+{     
+      display: inline;
+      cursor: pointer;
+      color: black;
+      font: serif;
+      padding-right: 20px;    
+}     
+      #rider1
+{
+      border-radius: 10px;
+      border: solid;
+      border-color: #192367;     
+      font-size: 40px;
+      color: red;
+      background: #FFF;
+      width: 600px;
+      text-align: center;
+      line-height: 83px;
+      margin: auto;
+}
+body  
+{
+      font-family: sans-serif;
+      /*font-size: 16 ;*/
+      background: #EFFAFB;
+}
+#rider2
+{
+      border: 2px solid;
+      border-color: #88594E
+      border-width: 2px;
+      border-radius: 10px;
+      width: 400px;
+      margin: auto;
+
+      text-align: center;
+      font-size: 25px;
+}
+.Parents input
+{
+      
+      margin-left: : 1%;
+      margin-right: 2%;
+      margin-bottom: 1%;
+
+}
+.Parents input
+{
+      display: inline;
+      width: 20%;
+}
+
+.basic
+{
+      float:left;
+      margin-left: 5%;  
+      font-size: 17px;
+}
+ .date
+ {
+      float: right;
+      margin-right: 15%;  
+      font-size: 17px; 
+ }
+.diseases
+{
+      font-size: 17px;
+      float: right;
+      margin-right: 27%;
+      margin-top: 20px;
+
+}
+.ace
+{
+  float: right;
+  margin-right: 15%;
+  font-size: 17px;
+}
+.common
+{
+  font-size: 17px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 1px;
+}
+label
+{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.button3, .button1 {border-radius: 12px;}
+  .footer 
+    {
+     
+     left: 0;
+     bottom: 0;
+     width: 100%;
+
+     background-color: #343a40;
+     
+     
+  }
+    .footer li
+    {
+      color: rgba(255,255,255,.5);
+      text-decoration-color: rgba(255,255,255,.5);
+      list-style: none;
+      display: inline-block;
+      margin-bottom: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 25px;
+    }
+  	#yu{
+  		background-color: #81F0F8;
+  	}
+    .login
+    {
+      margin-top: 20px;
+  		
+    }
+</style>
+</head>
+
+<body>  
+
+
+<div id="yu">
+  	<center><img id="im" src="C:/Utkarsh/Webdev/app/static/img/eh1.jpg" alt="E-Healthcare logo" width="" height="200px"></center>
+  	
+  	<h1 id="dev" style="color: indigo"><strong><center>स्वस्थ भारत अभियान</center></strong></h1>
+  	
+  	
+  	
+  </div>
+   <nav class="navbar" id="dpNav" >
+        
+        <div class="grad-div"></div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index/">
+                    <img src="/img/download.png" height="46" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color: indigo">DISTRICT WISE DATA <span class="caret"></span></a>
+                        <ul class="dropdown-menu  disabled" role="menu">
+                            <li><a href="/patiala/">PATIALA</a></li>
+                            <li><a href="/amritsar/">AMRITSAR</a></li>
+                            <li><a href="/ludhiana/">LUDHIANA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" style="color: indigo">STATS</a></li>
+                    
+                    
+                    <li><a href="/login/" style="color: indigo">
+                         LOGIN</a></li>
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color: indigo">SUPPORT <span class="caret"></span></a>
+                        <ul class="dropdown-menu  disabled" role="menu">
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">SEND QUERIES</a></li>
+                            <li><a href="">CONTACT US</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br><br>
+   <div class="testbox">
+    <form action="/">
+
+          <h1 id="rider1">Patient Registration</h1>
+        </div>
+
+
+
+        <h2 id="rider2">Basic Patient Details</h2><br><br>
+
+        <div class="colums">
+          <div class="basic">
+            <label for="mrn"> <strong>Medical Record Number (MRN)</strong><span>*</span></label>
+            <input id="mrn" type="text" name="mrn" required/>
+            <br><br>
+            <label for="name"> <strong>Name</strong><span>*</span></label>
+            <input id="name" type="text" name="name" required/><br><br>
+          
+            <label for="Gender">Gender<span>*</span></label><br><br>
+            <input id="Gender" type="radio" name="gender" value="m" required>Male</input><br>
+            <input id="Gender" type="radio" name="gender" value="f" required>Female</input><br>
+            <input id="Gender" type="radio" name="gender" value="other" required>Other</input><br>
+            <br>
+            </div>      
+            <div class="ace">
+            <label for="age"> <strong>Age</strong><span>*</span></label>
+            <input id="age" type="text" name="age" required/><br><br>
+            <label for="contact"> <strong>Contact</strong><span>*</span></label>
+            <input id="contact" type="text" name="contact" required/><br><br>
+            
+            <label for="email"> <strong>Email</strong><span>*</span></label>
+            <input id="email" type="text" name="email" required/><br><br>          
+          </div>
+          <br><br>
+          <div class="date">
+          <strong><p>Month and Year of admission<span>*</span></p></strong> <select name="adm_m">
+<option>&nbspMonth</option>
+<option value="January">January</option>
+<option value="Febuary">Febuary</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+          <select name="adm_y">
+<option>&nbspYear</option>
+
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+</select>
+          </div>
+
+          <br>
+          
+          
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br>      
+          <h2 id="rider2">General Conditions</h2>
+          <br>
+          <div class="diseases">
+            <label for="diseases">Diseases<span>*</span></label><br><br>
+            <input id="diseases" type="checkbox" name="diseases" value="heart" >Heart Diseases</input><br>
+            <input id="diseases" type="checkbox" name="diseases" value="diabetes" >Diabetes</input><br>
+            <input id="diseases" type="checkbox" name="diseases" value="arthiritis" >Arthiritis</input><br>
+            <input id="diseases" type="checkbox" name="diseases" value="pneumonia" >Pneumonia</input><br>
+            <input id="diseases" type="checkbox" name="diseases" value="plague" >Plague</input><br>
+            <input id="diseases" type="checkbox" name="diseases" value="dengue" >Dengue</input><br>
+            
+          </div>
+          <br>
+          <div class="common">
+          <div class="BG">
+            <strong><p>Blood Group<span>*</span></p></strong><select name="bg">
+            <option>Blood Group</option>
+
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="AB+">AB+</option>
+            <option value="O+">O+</option>
+            <option value="A-">A-</option>
+            <option value="B-">B-</option>
+            <option value="AB-">AB-</option>
+            <option value="O-">O-</option>
+            </select>
+          </div><br>
+          <div class="item">
+            <label for="bp">Blood Pressure<span>*</span></label><br>
+            <input id="bp" type="radio" name="bp" value="hypo" required>Hypotension</input><br>
+            <input id="bp" type="radio" name="bp" value="normal" required>Normal</input><br>
+            <input id="bp" type="radio" name="bp" value="hyper" required>Hypertension  </input>
+            <br><br>
+            <label for="diab">Diabetes type <span>*</span></label><br>
+            <input id="diab" type="radio" name="bp" value="type1" required>Type 1</input><br>
+            <input id="diab" type="radio" name="bp" value="type2" required>Type 2</input><br>
+            <input id="diab" type="radio" name="bp" value="other" required>Other </input>
+            <input id="diab" type="radio" name="bp" value="none" required>None </input>
+            <br>      
+        </div>
+      </div>
+        <br>
+      </form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer" style="color: white;text-shadow: 2px 2px 4px #000000;">
+ <ul>
+    <li>
+      <img src="/img/cu.png" style="float: left;">
+      <p style="float: left;margin-top: 10px;color: white">+91-987654321 </p>
+    </li>
+    <li>
+      <p style="float: left;margin-top: 10px;color: white">&copy; 2019 RUBIX</p>
+    </li>
+    <li>
+      <img style="float: left;" src="/eh.png" width="30px" height="30px">
+     
+      <p style="float: left;margin-top: 10px;color: white">support@ehealthcare.com</p>
+    </li>
+    
+  </ul>
+</div>
+
+</body>
+</html>

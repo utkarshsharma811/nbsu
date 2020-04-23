@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Amritsar</title>
+
+<link rel="icon" type="image/png" href="/eh.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,400,400i,700" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/stylesheet.css?v=2.1" />
+    <link rel="stylesheet" href="/css/login_page.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145627514-1"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+  <script type="text/javascript">
+      
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ["DISEASES", 'NUMBER',{ role: 'style' }],
+          ["Dangue", 1,'orange'],
+          ["Diabetes", 2, 'pink'],
+          ["Heart diseases", 3, 'blue'],
+          ["Plague",4, 'black'],
+          ["Pneumonia",  5, 'red'],
+          ["Arthritis",  6, 'grey']
+        ]);
+
+        var options = {
+          title:"Amritsar"
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('columnchart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+<style >
+  	#yu{
+  		background-color: #81F0F8;
+  	}
+  	.footer 
+    {
+	   
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+
+	   background-color: #343a40;
+	   
+	   
+	}
+  	.footer li
+    {
+    	color: rgba(255,255,255,.5);
+    	text-decoration-color: rgba(255,255,255,.5);
+    	list-style: none;
+    	display: inline-block;
+    	margin-bottom: 25px;
+    	margin-left: 25px;
+    	margin-right: 25px;
+    	margin-top: 25px;
+    }   
+     .login
+    {
+      margin-top: 20px;
+      
+    }
+    table, th, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, tr {
+  padding: 15px;
+  text-align: left;}
+   table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;}
+  		</style>
+    
+  
+
+</head>
+
+<body>  
+
+
+<div id="yu">
+  	<center><img id="im" src="/img/eh1.jpg" alt="E-Healthcare logo" width="" height="200px"></center>
+  	
+  	<h1 id="dev" style="color: indigo"><strong><center>स्वस्थ भारत अभियान</center></strong></h1>
+  	
+  	
+  	
+  </div>
+    <nav class="navbar" id="dpNav" >
+        
+        <div class="grad-div"></div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index/">
+                    <img src="/img/download.png" height="46" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color: indigo">DISTRICT WISE DATA <span class="caret"></span></a>
+                        <ul class="dropdown-menu  disabled" role="menu">
+                            <li><a href="/patiala/">PATIALA</a></li>
+                            <li><a href="/amritsar/">AMRITSAR</a></li>
+                            <li><a href="/ludhiana/">LUDHIANA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/stats/" style="color: indigo">STATS</a></li>
+                    
+                    
+                    <li><a href="/login/" style="color: indigo">
+                         LOGIN</a></li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br><br><br>
+
+
+<div>
+
+    <h1 style="margin-left: 6%">AMRITSAR</h1>
+        <!--<p style="float: left;width: 600px;margin-top: 90px;margin-top: 5px;">Patiala is a city in southeastern Punjab, northwestern India. 
+            It is the fourth largest city in the state and is the administrative capital of Patiala district.
+            </h4>-->
+        </div>
+             
+             <img id="ty" src="/img/Amritsar.png" alt="nbsu" style="float: left;width: 450px;height: 300px;margin-top: 25px;">
+
+            
+            
+                <h4 style="margin-top: 6%"> Amritsar,historically also known as Rāmdāspur and colloquially as Ambarsar, is a city in northwestern India which is the administrative headquarters of the Amritsar district and is located in the Majha region of the Indian state of Punjab.<br><br><br>Amritsar has been consistently performing better than the rest of the districts in punjab in terms of reproductive and child health.
+                        The Mother and Child health action plan(2014-2017) is a comprehensive effort by the Government of Punjab to translate the national RMNCH+A strategy for women and children.
+       
+                    
+                    
+                           As a positive indicator, the state’s infant mortality rate (IMR) has witnessed two points dip from last year, reveals Sample Registration Report 2016 released by the central government on September 28.
+       
+                           The report states, IMR has dropped from 23 per 1,000 births in 2015 to 21 per 1,000 births in 2016. The same figure was 24 per 1,000 births in 2014 and 26 deaths in 2013. 
+       
+       
+                    </h4></div>
+
+
+<table id="t01" style="width:100%">
+  <tr>
+    <th>Diseases</th>
+    <th>Dangue</th>
+    <th>Diabetes</th> 
+    <th>Heart diseases</th>
+    <th>Plague</th>
+    <th>Pneumonia</th>
+    <th>Arthritis</th>
+  </tr>
+  <tr>
+    <th>Amritsar</th>
+    <th>7</th>
+    <th>8</th> 
+    <th>9</th>
+    <th>10</th>
+    <th>11</th>
+    <th>12</th>
+  </tr>
+</table>
+
+
+
+
+<br><br><br><br><br><br><br>
+<div id="columnchart" style="width: 900px; height: 500px;"></div>
+<br><br><br><br><br><br><br><br>
+
+<div class="footer" style="color: white;text-shadow: 2px 2px 4px #000000;">
+ <ul>
+    <li>
+      <img src="/img/cu.png" style="float: left;">
+      <p style="float: left;margin-top: 10px;color: white">+91-987654321 </p>
+    </li>
+    <li>
+      <p style="float: left;margin-top: 10px;color: white">&copy; 2019 RUBIX</p>
+    </li>
+    <li>
+      <img style="float: left;" src="/img/mail.png">
+     
+      <p style="float: left;margin-top: 10px;color: white">support@ehealthcare.com</p>
+    </li>
+    
+  </ul>
+</div>
+
+</body>
+</html>
