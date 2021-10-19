@@ -1,1 +1,2 @@
-# nbsu
+#nbsu
+#hacktoberfest-etc
